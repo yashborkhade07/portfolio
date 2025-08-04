@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header,
+        section,
+        footer {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #111;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            /* increased from 250px */
+            gap: 30px;
+            /* optional: slightly bigger gap */
+        }
+
+        .card {
+            background: #111;
+            padding: 30px;
+            /* increased padding */
+            border-radius: 12px;
+            border: 1px solid #444;
+        }
+
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background: #111;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>My Work</h1>
+        <div>
+            <a href="maincode.html">Home</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>Graphic Design Portfolio</h2>
+        <p>A selection of my creative works and visual design projects.</p>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio-grid">
+            <div class="card">
+                <img src="img1.png" alt="Design 1">
+            </div>
+            <div class="card">
+                <img src="img2.png" alt="Design 2">
+            </div>
+            <div class="card">
+                <img src="img3.png" alt="Design 3">
+            </div>
+            <div class="card">
+                <img src="img4.png" alt="Design 3">
+            </div>
+            <div class="card">
+                <img src="img5.png" alt="design 3">
+            </div>
+            <div class="card">
+                <img src="img6.png" alt="Design 3">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Yash Borkhade. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
